@@ -1,20 +1,19 @@
-# MD Ratul Hossen
+<div align="center">
+  <img src="assets/profile.jpg" alt="MD Ratul Hossen" width="200" />
 
-**Aspiring AI Researcher | LLM Enthusiast | Data-Driven Problem Solver**
+  <h1>MD Ratul Hossen</h1>
+
+  <p><b>Aspiring AI Researcher | LLM Enthusiast | Data-Driven Problem Solver</b></p>
+  
+  <p>
+    📞 +880 1972167939 • 📧 <a href="mailto:251-15-596@diu.edu.bd">251-15-596@diu.edu.bd</a> • 🌍 Ashulia, Dhaka, Bangladesh<br>
+    🔗 <a href="https://linkedin.com/in/mdratulhossen">LinkedIn</a> • 💻 <a href="https://github.com/itzRatul">GitHub</a> • 🏆 <a href="https://kaggle.com/mdratulhossen">Kaggle</a>
+  </p>
+</div>
 
 ---
 
-## Contact Information
-
-| | |
-|:---|:---|
-| **Email:** 251-15-596@diu.edu.bd | **Location:** Ashulia, Dhaka, Bangladesh |
-| **Phone:** +880 1972167939 | **LinkedIn:** linkedin.com/in/mdratulhossen |
-| **GitHub:** github.com/itzRatul | **Kaggle:** kaggle.com/mdratulhossen |
-
----
-
-## Profile Summary
+## 🚀 Profile Summary
 
 Computer Science student at Daffodil International University with strong expertise in Python, focusing on data manipulation and analysis. Solid foundation in C and C++ for core problem-solving. Passionate about Artificial Intelligence—specifically Large Language Models (LLMs)—with practical experience deploying models locally via Ollama. Currently exploring transformer architectures, modern training methodologies, and fine-tuning techniques. Active researcher engaged with university AI and programming clubs, driven by the long-term goal of building scalable LLMs from scratch.
 
