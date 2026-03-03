@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MD Ratul Hossen | AI Researcher & LLM Enthusiast</title>
+  <meta name="description" content="Portfolio of MD Ratul Hossen — Aspiring AI Researcher, LLM Enthusiast, and Computer Science student at Daffodil International University." />
+  <meta name="keywords" content="MD Ratul Hossen, AI Researcher, LLM, Machine Learning, Python, Portfolio" />
+  <meta property="og:title" content="MD Ratul Hossen | AI Researcher" />
+  <meta property="og:description" content="Aspiring AI Researcher & LLM Enthusiast. Building the future of Large Language Models." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVIGATION ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Ratul<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#research" class="nav-link">Research</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="assets/MD_Ratul_Hossen_CV.pdf" download class="btn-nav">Download CV</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Open to Research Collaborations
+      </div>
+      <div class="hero-photo-wrapper">
+        <div class="photo-ring"></div>
+        <div class="photo-ring photo-ring-2"></div>
+        <img src="assets/profile.jpg" alt="MD Ratul Hossen" class="hero-photo" id="heroPhoto" />
+      </div>
+      <h1 class="hero-name">MD Ratul Hossen</h1>
+      <div class="hero-typewriter">
+        <span id="typewriterText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-tagline">
+        Building intelligence from scratch — one transformer at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/itzRatul" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/mdratulhossen" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://kaggle.com/mdratulhossen" target="_blank" rel="noopener" class="social-link" aria-label="Kaggle">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.336"/></svg>
+        </a>
+        <a href="mailto:251-15-596@diu.edu.bd" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-.9.732-1.636 1.636-1.636h.749L12 11.28l9.615-7.459h.749A1.636 1.636 0 0124 5.457"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Computer Science & Engineering student</strong> at Daffodil International University (2025–2028), with a deep passion for <strong>Artificial Intelligence</strong> — particularly Large Language Models (LLMs).
+          </p>
+          <p>
+            My journey started with Python and data analysis, quickly evolving into local LLM deployment using <strong>Ollama</strong>, studying <strong>transformer architectures</strong>, and experimenting with <strong>model fine-tuning</strong>. I'm an active researcher in two university clubs, building the theoretical and practical foundations for my long-term ambition: <strong>building my own LLM from scratch before graduation</strong>.
+          </p>
+          <p>
+            I believe in learning by doing — my projects are proof of that philosophy, bridging theory with real-world implementation.
+          </p>
+          <div class="about-tags">
+            <span class="tag">🤖 LLM Enthusiast</span>
+            <span class="tag">🔬 AI Researcher</span>
+            <span class="tag">🐍 Python Dev</span>
+            <span class="tag">♟️ Chess Player</span>
+            <span class="tag">📖 Avid Reader</span>
+          </div>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card glass-card">
+            <div class="stat-icon">🎓</div>
+            <div class="stat-value">3.71</div>
+            <div class="stat-label">Average SGPA</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">💻</div>
+            <div class="stat-value">3+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">🏛️</div>
+            <div class="stat-value">2</div>
+            <div class="stat-label">Club Memberships</div>
+          </div>
+          <div class="stat-card glass-card">
+            <div class="stat-icon">🧠</div>
+            <div class="stat-value">LLM</div>
+            <div class="stat-label">Core Focus</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">💻</span>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span>Python (NumPy, Pandas)</span>
+              <span class="skill-level advanced">Advanced</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span>C & C++</span>
+              <span class="skill-level proficient">Proficient</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🧠</span>
+            <h3>AI & LLM Stack</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag glow-tag">Large Language Models</span>
+            <span class="skill-tag glow-tag">Ollama (Local LLM Deploy)</span>
+            <span class="skill-tag glow-tag">Transformer Architecture</span>
+            <span class="skill-tag glow-tag">Hugging Face</span>
+            <span class="skill-tag">Model Fine-Tuning (Learning)</span>
+            <span class="skill-tag">AI Agent Development</span>
+            <span class="skill-tag">n8n Automation</span>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">📊</span>
+            <h3>Data & ML Stack</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span>NumPy & Pandas</span>
+              <span class="skill-level advanced">Advanced</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span>Matplotlib & Seaborn</span>
+              <span class="skill-level proficient">Proficient</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta">
+              <span>PyTorch & Scikit-learn</span>
+              <span class="skill-level learning">Learning</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill learning-bar" data-width="40"></div></div>
+          </div>
+        </div>
+
+        <div class="skill-group glass-card reveal">
+          <div class="skill-group-header">
+            <span class="skill-group-icon">🌐</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span>Bengali</span><span class="skill-level native">Native</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="100"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span>English</span><span class="skill-level advanced">Fluent</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-meta"><span>Hindi & Urdu</span><span class="skill-level learning">Conversational</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card glass-card reveal">
+          <div class="project-img-wrapper">
+            <img src="assets/mercy.jpg" alt="M.E.R.C.Y AI Agent" class="project-img" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://github.com/itzRatul/M.E.R.C.Y" target="_blank" rel="noopener" class="overlay-btn">View on GitHub →</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="p-tag">Python</span>
+              <span class="p-tag">Ollama</span>
+              <span class="p-tag">Telegram API</span>
+              <span class="p-tag featured">Featured</span>
+            </div>
+            <h3 class="project-title">M.E.R.C.Y — AI Agent System</h3>
+            <p class="project-desc">
+              A context-aware AI companion leveraging local LLM deployment via Ollama. Features a custom memory management system with user profiling, conversation history, task/reminder tracking, and adaptive personality architecture with mood-based dynamic responses.
+            </p>
+            <a href="https://github.com/itzRatul/M.E.R.C.Y" target="_blank" rel="noopener" class="project-link">
+              github.com/itzRatul/M.E.R.C.Y →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-img-wrapper">
+            <img src="assets/project_rainfall.jpg" alt="Project Rainfall" class="project-img" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://github.com/itzRatul/project-rainfall" target="_blank" rel="noopener" class="overlay-btn">View on GitHub →</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="p-tag">Python</span>
+              <span class="p-tag">Pandas</span>
+              <span class="p-tag">Scikit-learn</span>
+            </div>
+            <h3 class="project-title">Project Rainfall — Data Analysis & Prediction</h3>
+            <p class="project-desc">
+              Processed 24 years (2001–2024) of daily rainfall data from multiple geographic locations. Built automated data pipelines, applied linear regression for forecasting, and generated comprehensive climate visualizations including trend lines and seasonal patterns.
+            </p>
+            <a href="https://github.com/itzRatul/project-rainfall" target="_blank" rel="noopener" class="project-link">
+              github.com/itzRatul/project-rainfall →
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card reveal">
+          <div class="project-img-wrapper">
+            <img src="assets/patient_management.jpg" alt="Patient Management System" class="project-img" loading="lazy" />
+            <div class="project-overlay">
+              <a href="https://github.com/itzRatul/Patient-management-system" target="_blank" rel="noopener" class="overlay-btn">View on GitHub →</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="p-tag">C</span>
+              <span class="p-tag">File Handling</span>
+              <span class="p-tag">Data Structures</span>
+            </div>
+            <h3 class="project-title">Patient Management System</h3>
+            <p class="project-desc">
+              A secure command-line healthcare record management system with multi-user authentication, comprehensive patient profile management, intelligent search (by name, contact, disease, blood group), and persistent file storage. Built entirely in C.
+            </p>
+            <a href="https://github.com/itzRatul/Patient-management-system" target="_blank" rel="noopener" class="project-link">
+              github.com/itzRatul/Patient-management-system →
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RESEARCH & ACTIVITIES ── -->
+  <section class="section section-alt" id="research">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Community & Research</span>
+        <h2 class="section-title">Research & Activities</h2>
+      </div>
+      <div class="research-grid">
+
+        <div class="research-card glass-card reveal">
+          <div class="research-icon">🔬</div>
+          <div class="research-body">
+            <div class="research-role">Executive Member — Research & Journal Wing</div>
+            <div class="research-org">DIU Computer & Programming Club</div>
+            <ul class="research-list">
+              <li>Engaging in structured AI research activities and theoretical foundation building</li>
+              <li>Contributing to academic publications and research initiatives</li>
+              <li>Collaborating with peers on cutting-edge computer science topics</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="research-card glass-card reveal">
+          <div class="research-icon">🤖</div>
+          <div class="research-body">
+            <div class="research-role">Executive Member</div>
+            <div class="research-org">Daffodil AI Club</div>
+            <ul class="research-list">
+              <li>Active participant in AI community building and practical development workshops</li>
+              <li>Collaborating on emerging AI/ML projects and knowledge-sharing initiatives</li>
+              <li>Expanding practical knowledge in modern AI development techniques</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="goal-banner glass-card reveal">
+        <div class="goal-icon">🚀</div>
+        <div class="goal-content">
+          <h3>Long-Term Goal</h3>
+          <p>Build my own <strong>Large Language Model from scratch</strong> before graduation and publish impactful AI research — contributing to the future of intelligent systems.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ── -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-line"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-period">Jan 2025 – 2028</div>
+            <h3 class="timeline-degree">B.Sc. in Computer Science & Engineering</h3>
+            <div class="timeline-institution">Daffodil International University, Dhaka, Bangladesh</div>
+            <div class="sgpa-grid">
+              <div class="sgpa-item">
+                <div class="sgpa-sem">1st Sem</div>
+                <div class="sgpa-val">3.69</div>
+              </div>
+              <div class="sgpa-item">
+                <div class="sgpa-sem">2nd Sem</div>
+                <div class="sgpa-val">3.58</div>
+              </div>
+              <div class="sgpa-item">
+                <div class="sgpa-sem">3rd Sem</div>
+                <div class="sgpa-val">3.86</div>
+              </div>
+            </div>
+            <div class="coursework">
+              <strong>Relevant Coursework:</strong> Data Structures, Algorithms, Database Systems, Object-Oriented Programming
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-period">2023</div>
+            <h3 class="timeline-degree">Higher Secondary Certificate (HSC)</h3>
+            <div class="timeline-institution">Noapara Govt. College | Jashore Board</div>
+            <div class="hsc-row">
+              <span class="hsc-group">📚 Science</span>
+              <span class="hsc-gpa">GPA: 4.58</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Open to research collaborations, internship opportunities, and AI discussions.</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <div class="contact-item glass-card">
+            <div class="contact-icon">📧</div>
+            <div class="contact-detail">
+              <div class="contact-label">Email</div>
+              <a href="mailto:251-15-596@diu.edu.bd" class="contact-value">251-15-596@diu.edu.bd</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="contact-icon">📍</div>
+            <div class="contact-detail">
+              <div class="contact-label">Location</div>
+              <div class="contact-value">Ashulia, Dhaka, Bangladesh</div>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail">
+              <div class="contact-label">Phone</div>
+              <a href="tel:+8801972167939" class="contact-value">+880 1972167939</a>
+            </div>
+          </div>
+          <div class="contact-links">
+            <a href="https://github.com/itzRatul" target="_blank" rel="noopener" class="contact-social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/mdratulhossen" target="_blank" rel="noopener" class="contact-social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://kaggle.com/mdratulhossen" target="_blank" rel="noopener" class="contact-social-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.336"/></svg>
+              Kaggle
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card reveal" id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="contactName">Your Name</label>
+            <input type="text" id="contactName" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address</label>
+            <input type="email" id="contactEmail" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" name="subject" placeholder="Research Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" name="message" placeholder="Tell me about your project or opportunity..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">
+            <span id="btnText">Send Message</span>
+            <span id="btnIcon">✉️</span>
+          </button>
+          <div class="form-note" id="formNote"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="nav-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>Ratul<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Building the future of AI.</p>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 MD Ratul Hossen. All rights reserved.</p>
+        <p class="footer-made">Made with ❤️ &amp; lots of ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
