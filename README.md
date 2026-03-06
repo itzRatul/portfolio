@@ -64,6 +64,14 @@ Developed a secure command-line healthcare record management system emphasizing 
 
 ---
 
+## 📝 Blog & Writings
+
+I have recently started a personal blog where I share my journey, insights on Artificial Intelligence, programming tips, and lifestyle experiences. 
+
+**Read my latest posts at:** [itzratul.github.io/blog](https://itzratul.github.io/blog)
+
+---
+
 ## Technical Skills & Interests
 
 ### Programming Languages
