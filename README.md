@@ -68,7 +68,7 @@ Developed a secure command-line healthcare record management system emphasizing 
 
 I have recently started a personal blog where I share my journey, insights on Artificial Intelligence, programming tips, and lifestyle experiences. 
 
-**Read my latest posts at:** [itzratul.github.io/blog](https://itzratul.github.io/blog)
+**Read my latest posts at:** [voice-of-ratul.vercel.app](https://voice-of-ratul.vercel.app)
 
 ---
 
